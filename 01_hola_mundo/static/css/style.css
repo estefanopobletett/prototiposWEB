@@ -1,0 +1,30 @@
+/*esto es un comentario*/
+
+header{
+    text-align: center; /*para centrar el texto*/
+    background-color: rgb(188, 234, 248); /*este es un color de fondo*/
+}
+header:hover{
+    background-color: rgb(0, 0, 0);
+}
+main {
+background-color: beige;
+}
+main:hover{
+    background-color: rgb(0, 0, 0);
+}
+footer {
+background-color:rgb(73, 115, 170)
+}
+footer:hover{
+    background-color: black;
+}
+h1 {
+    color: blue; /*color de la letra*/
+}
+h2 {
+    color: red;
+}
+p{
+    color: chartreuse;
+}
