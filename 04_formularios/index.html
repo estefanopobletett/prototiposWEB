@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios HTML - ejemeplos</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Formulario de registro</h2>
+        <p>Completa los siguientes datos:</p>
+        <form> <!-- etiqueta para crear un formulario -->
+            <label>Nombre:</label> <!-- etiqueta que describe al campo -->
+            <input type="text" name="nombre" placeholder="Ejemplo: Manuel Manola"> <!--campo de texto-->
+            <br><br>
+            <label>Correo Electronico:</label>
+            <input type="email" name="correo" placeholder="Ejemplo manolomanola@gmail.com">
+            <br><br>
+            <label>Contraseña:</label>
+            <input type="password" name="password">
+            <br><br>
+            <label>Edad:</label>
+            <input type="number" name="edad"> <!--admite solo numeros-->
+            <br><br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="FechaNac">
+            <br><br>
+            <label>Género:</label>
+
+            <input type="radio" name="genero" value="masculino"> <!--elemento de eleccion unico-->
+            Masculino
+            <input type="radio" name="genero" value="femenino">
+            Femenino
+            <input type="radio" name="genero" value="Otros">
+            Otros
+            <br><br>
+            <label>Intereses</label><br>
+            <input type="checkbox" name="intereses" value="musica">
+            Musica<br>
+            <input type="checkbox" name="intereses" value="deportes">
+            Deporte<br>
+            <input type="checkbox" name="intereses" value="peliculas">
+            Peliculas
+            <br><br>
+            <label>Ciudad:</label><br>
+            <select name="ciudad">
+                <option>Santiago</option>
+                <option>Valparaiso</option>
+                <option>Talca</option>
+                <option>Arica</option>
+            </select>
+            <br><br>
+            <label>Comentarios</label><br>
+            <textarea name="comentarios" rows="4" cols="30"></textarea>
+            <br><br>
+            <label>Subir archivo:</label>
+            <input type="file" name="archivo">
+            <br><br>
+            <label>Color favorito:</label><br>
+            <input type="color" name="color">
+            <br><br>
+            <label>Nivel de satisfaccion</label><br>
+            <input type="range" name="satisfaccion" min="1" max="7">
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+            <br><br>
+        </form>
+        <!--creacion de la tala de datos-->
+        <h2>Tabla de usuarios</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>javier</td>
+                <td>javierhomo@gmail.com</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>alan</td>
+                <td>alan@gmail.com</td>
+                <td>3</td>
+                </tr>
+        </table>
+    </main>
+</body>
+
+</html>
